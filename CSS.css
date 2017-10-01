@@ -1,0 +1,44 @@
+body{
+}
+#content{
+	width:200px;
+	height:320px;
+	background-color:gray;
+	text-align: center;
+	padding-top: 3px;
+}
+.btn{
+	width:46px;
+	height:46px;
+	font-size:18px;
+
+}
+.row{
+	width:200px;
+	margin-top:2px;
+}
+.resultBox{
+	
+	
+	width:196px;
+	height:69px;
+	background-color:white;
+    margin: auto;
+    
+}
+.result{
+	font-size:32px;
+	color:black;
+	width:196px;
+	height:46px;
+	text-align:right;
+}
+.smallResult{
+	width:196px;
+	height:23px;
+	text-align:right;
+}
+#ac{
+	width:196px;
+	height:46px;
+}

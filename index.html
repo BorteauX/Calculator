@@ -1,0 +1,53 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS.css">
+    </head>
+    <body>
+        <div id = "content">
+            <div class = "row">
+                <div class = "resultBox">
+                    <input type = "text" id = "smallResult" placeholder = "0" class = "smallResult"></input>
+                    <input type = "text" id = "result" placeholder = "0" class = "result"></input>
+                </div>
+            </div>
+
+            <div class = "row">
+                <button class = "btn js-num-btn" data-num="+" id = "plus">+</button>
+                <button class = "btn js-num-btn" data-num="-" id = "minus">-</button>
+                <button class = "btn js-num-btn" data-num="*" id = "mult">*</button>
+                <button class = "btn js-num-btn" data-num="/" id = "divided">/</button>
+            </div>
+
+            <div class = "row">
+                <button class = "btn js-num-btn" data-num="1" id = "num1">1</button>
+                <button class = "btn js-num-btn" data-num="2" id = "num2">2</button>
+                <button class = "btn js-num-btn" data-num="3" id = "num3">3</button>
+                <button class = "btn js-num-btn" data-num="4" id = "num4">4</button>
+            </div>
+
+            <div class = "row">
+                <button class = "btn js-num-btn" data-num="5" id = "num5">5</button>
+                <button class = "btn js-num-btn" data-num="6" id = "num6">6</button>
+                <button class = "btn js-num-btn" data-num="7" id = "num7">7</button>
+                <button class = "btn js-num-btn" data-num="8" id = "num8">8</button>
+            </div>
+
+            <div class = "row">
+                <button class = "btn js-num-btn" data-num="9" id = "num9">9</button>
+                <button class = "btn js-num-btn" data-num="0" id = "num0">0</button>
+                <button class = "btn" id = "point" onclick = "keyInPoint()">.</button>
+                <button class = "btn" id = "equal">=</button>
+            </div>
+
+            <div class = "row">
+                <input type = "reset" value = "AC" class = "btn" id="js-ac"></input>
+            </div>
+
+        </div>
+        <script src="jquery.js"></script>
+        <script src="js.js"></script>
+        
+    </body>
+</html>
